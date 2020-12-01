@@ -18,12 +18,15 @@
 :root {
     --body-font: 'Poppins', sans-serif;
     --big-font-size: 2rem;
+    --bio-font-size: 2rem;
     --h2-font-size: 1.25rem;
     --normal-font-size: 0.938rem;
 }
+
 @media screen and (min-width: 768px){
     :root {
         --big-font-size: 3.5rem;
+        --bio-font-size: 2.2rem;
         --h2-font-size: 2rem;
         --normal-font-size: 1rem;
     }
@@ -153,6 +156,13 @@ img{
     }
 }
 
+
+@media screen and (max-width: 370px){
+    .home__img{
+        display: none;
+    }
+}
+
 .nav__item{
     margin-bottom: var(--mb-4);
 }
@@ -215,7 +225,12 @@ img{
 }
 
 .home__title{
-    font-size: var(--big-font-size);
+    font-size: var(--bio-font-size);
+    margin-bottom: var(--mb-5);
+}
+
+.home__short__bio{
+    font-size: 1rem;
     margin-bottom: var(--mb-5);
 }
 

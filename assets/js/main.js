@@ -67,5 +67,8 @@ scrollReveal.reveal('.contact__input',{interval: 200});
 
 /** typing animation **/
 var typed = new Typed (".roles", {
-    
+    strings: ["Software Engineer", "Developer Advocate", "Tech Entrepreneur", "Machine Learning Enthusiast"],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true
 });
