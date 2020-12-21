@@ -40,6 +40,7 @@
     --mb-4: 2rem;
     --mb-5: 2.5rem;
     --mb-6: 3rem;
+    --mb-work: 0.75rem;
 }
 
 /** z index **/
@@ -418,6 +419,17 @@ img{
 
 .work__img:hover .overlay{
     opacity: 1;
+}
+
+.work__desc{
+    font-size: var(--mb-work);
+    text-align: left;
+    padding: 5px;
+    color: #000;
+}
+
+.work__desc a h5{
+    bottom: 0%;
 }
 
 
